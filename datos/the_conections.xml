@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<the_connections>
+
+    <general_information>
+        <file_name>Project: Ultimate Gamma</file_name>
+        <classification>Confidential grade 5</classification>
+        <last_update>2026-05-08</last_update>
+    </general_information>
+
+    <timeline>
+
+        <!-- ========================= -->
+        <!-- RESIDENT EVIL 1 REMAKE -->
+        <!-- ========================= -->
+
+        <game id="Resident-Evil-1" year="1998">
+            <title>Resident Evil</title>
+            <developer>Capcom</developer>
+            <main_incident>Mansion Incident</main_incident>
+            <location>Arklay Mountains, Raccoon City</location>
+
+            <characters>
+                <character id_ref="p_chris_redfield" />
+                <character id_ref="p_jill_valentine" />
+                <character id_ref="p_rebecca_chambers" />
+                <character id_ref="p_barry_burton" />
+            </characters>
+
+            <viruses status="Active">
+                <biological_agent id="virus_t_001" danger_level="High" infectivity="Very High">
+                    <name>T-Virus</name>
+                    <type>Mutagenic Virus</type>
+                    <description>
+                        Viral weapon created by Umbrella Corporation.
+                        Responsible for the Mansion Incident.
+                    </description>
+                </biological_agent>
+            </viruses>
+
+            <weapons>
+                <weapon type="Handgun" ammo="9mm">
+                    <name>Beretta M92F</name>
+                    <description>Standard S.T.A.R.S. sidearm.</description>
+                </weapon>
+
+                <weapon type="Shotgun" ammo="12 Gauge">
+                    <name>Shotgun</name>
+                    <description>Powerful anti-B.O.W weapon.</description>
+                </weapon>
+
+                <weapon type="Grenade Launcher" ammo="40mm">
+                    <name>Grenade Launcher</name>
+                    <description>Heavy explosive weapon used by Jill.</description>
+                </weapon>
+            </weapons>
+        </game>
+
+        <!-- ========================= -->
+        <!-- RESIDENT EVIL 2 REMAKE -->
+        <!-- ========================= -->
+
+        <game id="Resident-Evil-2" year="1998">
+            <title>Resident Evil 2</title>
+            <developer>Capcom</developer>
+            <main_incident>Raccoon City Outbreak</main_incident>
+            <location>Raccoon City</location>
+
+            <characters>
+                <character id_ref="p_leon_kennedy" />
+                <character id_ref="p_claire_redfield" />
+                <character id_ref="p_ada_wong" />
+                <character id_ref="p_sherry_birkin" />
+            </characters>
+
+            <viruses status="Critical">
+                <biological_agent id="virus_g_001" danger_level="Extreme" infectivity="High">
+                    <name>G-Virus</name>
+                    <type>Experimental Mutagenic Virus</type>
+                    <description>
+                        Virus created by William Birkin capable of extreme mutation.
+                    </description>
+                </biological_agent>
+            </viruses>
+
+            <weapons>
+                <weapon type="Handgun" ammo="9mm">
+                    <name>Matilda</name>
+                    <description>Leon Kennedy's standard handgun.</description>
+                </weapon>
+
+                <weapon type="Shotgun" ammo="12 Gauge">
+                    <name>W-870</name>
+                    <description>Reliable shotgun found in R.P.D.</description>
+                </weapon>
+
+                <weapon type="Magnum" ammo=".50 AE">
+                    <name>Lightning Hawk</name>
+                    <description>High-caliber anti-B.O.W weapon.</description>
+                </weapon>
+            </weapons>
+        </game>
+
+        <!-- ========================= -->
+        <!-- RESIDENT EVIL 3 REMAKE -->
+        <!-- ========================= -->
+
+        <game id="Resident-Evil-3" year="1998">
+            <title>Resident Evil 3</title>
+            <developer>Capcom</developer>
+            <main_incident>Nemesis Pursuit Incident</main_incident>
+            <location>Raccoon City</location>
+
+            <characters>
+                <character id_ref="p_jill_valentine" />
+                <character id_ref="p_carlos_oliveira" />
+                <character id_ref="p_mikhail_victor" />
+            </characters>
+
+            <viruses status="Critical">
+                <biological_agent id="virus_nemesis" danger_level="Extreme" infectivity="High">
+                    <name>NE-α Parasite</name>
+                    <type>Parasite-Based Bio Weapon</type>
+                    <description>
+                        Parasite implanted into Tyrants to improve intelligence.
+                    </description>
+                </biological_agent>
+            </viruses>
+
+            <weapons>
+                <weapon type="Handgun" ammo="9mm">
+                    <name>G19 Handgun</name>
+                    <description>Jill Valentine's sidearm.</description>
+                </weapon>
+
+                <weapon type="Shotgun" ammo="12 Gauge">
+                    <name>M3 Shotgun</name>
+                    <description>Combat shotgun effective against infected.</description>
+                </weapon>
+
+                <weapon type="Grenade Launcher" ammo="40mm">
+                    <name>Grenade Launcher</name>
+                    <description>Heavy explosive weapon for crowd control.</description>
+                </weapon>
+            </weapons>
+        </game>
+
+        <!-- ========================= -->
+        <!-- RESIDENT EVIL 4 REMAKE -->
+        <!-- ========================= -->
+
+        <game id="Resident-Evil-4" year="2004">
+            <title>Resident Evil 4</title>
+            <developer>Capcom</developer>
+            <main_incident>Las Plagas Incident</main_incident>
+            <location>Rural Spain</location>
+
+            <characters>
+                <character id_ref="p_leon_kennedy" />
+                <character id_ref="p_ashley_graham" />
+                <character id_ref="p_ada_wong" />
+                <character id_ref="p_luis_serra" />
+            </characters>
+
+            <viruses status="Contained">
+                <biological_agent id="virus_las_plagas" danger_level="Extreme" infectivity="High">
+                    <name>Las Plagas</name>
+                    <type>Parasite Organism</type>
+                    <description>
+                        Ancient parasite capable of controlling infected hosts.
+                    </description>
+                </biological_agent>
+            </viruses>
+
+            <weapons>
+                <weapon type="Handgun" ammo="9mm">
+                    <name>SG-09 R</name>
+                    <description>Leon Kennedy's custom handgun.</description>
+                </weapon>
+
+                <weapon type="Shotgun" ammo="12 Gauge">
+                    <name>W-870</name>
+                    <description>Essential close-range weapon.</description>
+                </weapon>
+
+                <weapon type="Rifle" ammo="7.62mm">
+                    <name>SR M1903</name>
+                    <description>Precision rifle used against distant enemies.</description>
+                </weapon>
+            </weapons>
+        </game>
+
+        <!-- ========================= -->
+        <!-- RESIDENT EVIL 5 -->
+        <!-- ========================= -->
+
+        <game id="Resident-Evil-5" year="2009">
+            <title>Resident Evil 5</title>
+            <developer>Capcom</developer>
+            <main_incident>Kijuju Bioterror Incident</main_incident>
+            <location>Kijuju Autonomous Zone, Africa</location>
+
+            <characters>
+                <character id_ref="p_chris_redfield" />
+                <character id_ref="p_sheva_alomar" />
+                <character id_ref="p_albert_wesker" />
+            </characters>
+
+            <viruses status="Critical">
+                <biological_agent id="virus_uroboros" danger_level="Extreme" infectivity="Very High">
+                    <name>Uroboros Virus</name>
+                    <type>Advanced Viral Weapon</type>
+                    <description>
+                        Experimental viruses created by Albert Wesker.
+                    </description>
+                </biological_agent>
+            </viruses>
+
+            <weapons>
+                <weapon type="Handgun" ammo="9mm">
+                    <name>M92F</name>
+                    <description>Standard BSAA sidearm.</description>
+                </weapon>
+
+                <weapon type="Shotgun" ammo="12 Gauge">
+                    <name>Ithaca M37</name>
+                    <description>High stopping power combat shotgun.</description>
+                </weapon>
+
+                <weapon type="Machine Gun" ammo="5.56mm">
+                    <name>VZ61</name>
+                    <description>Rapid-fire automatic weapon.</description>
+                </weapon>
+            </weapons>
+        </game>
+
+        <!-- ========================= -->
+        <!-- RESIDENT EVIL 6 -->
+        <!-- ========================= -->
+
+        <game id="Resident-Evil-6" year="2013">
+            <title>Resident Evil 6</title>
+            <developer>Capcom</developer>
+            <main_incident>C-Virus Global Outbreak</main_incident>
+            <location>Tall Oaks, Lanshiang, Eastern Europe</location>
+
+            <characters>
+                <character id_ref="p_leon_kennedy" />
+                <character id_ref="p_chris_redfield" />
+                <character id_ref="p_jake_muller" />
+                <character id_ref="p_ada_wong" />
+            </characters>
+
+            <viruses status="Global Threat">
+                <biological_agent id="virus_c_001" danger_level="Extreme" infectivity="Very High">
+                    <name>C-Virus</name>
+                    <type>Hybrid Viral Weapon</type>
+                    <description>
+                        Advanced viruses combining multiple mutagenic strains.
+                    </description>
+                </biological_agent>
+            </viruses>
+
+            <weapons>
+                <weapon type="Handgun" ammo="9mm">
+                    <name>Wing Shooter</name>
+                    <description>Leon Kennedy's dual-pistol system.</description>
+                </weapon>
+
+                <weapon type="Assault Rifle" ammo="5.56mm">
+                    <name>Assault Rifle RN</name>
+                    <description>Standard military-grade rifle.</description>
+                </weapon>
+
+                <weapon type="Shotgun" ammo="12 Gauge">
+                    <name>Hydra</name>
+                    <description>Triple-barrel shotgun with devastating power.</description>
+                </weapon>
+            </weapons>
+        </game>
+
+        <!-- ========================= -->
+        <!-- RESIDENT EVIL 7 -->
+        <!-- ========================= -->
+
+        <game id="Resident-Evil-7" year="2017">
+            <title>Resident Evil 7: Biohazard</title>
+            <developer>Capcom</developer>
+            <main_incident>Baker House Incident</main_incident>
+            <location>Dulvey, Louisiana</location>
+
+            <characters>
+                <character id_ref="p_ethan_winters" />
+                <character id_ref="p_mia_winters" />
+                <character id_ref="p_zoe_baker" />
+                <character id_ref="p_chris_redfield" />
+                <character id_ref="p_lucas_baker" />
+            </characters>
+
+            <viruses status="Contained">
+                <biological_agent id="mold" danger_level="Extreme" infectivity="Very High">
+                    <name>E-Type Mold</name>
+                    <type>Mutamycete Fungus</type>
+                    <description>
+                        Experimental fungal bio-weapon connected to Eveline.
+                    </description>
+                </biological_agent>
+            </viruses>
+
+            <weapons>
+                <weapon type="Handgun" ammo="9mm">
+                    <name>M19 Handgun</name>
+                    <description>Basic survival handgun.</description>
+                </weapon>
+
+                <weapon type="Grenade Launcher" ammo="40mm">
+                    <name>Grenade Launcher</name>
+                    <description>Heavy explosive weapon found in the house.</description>
+                </weapon>
+
+                <weapon type="Flamethrower" ammo="Fuel">
+                    <name>Burner</name>
+                    <description>Improvised flamethrower effective against insects.</description>
+                </weapon>
+            </weapons>
+        </game>
+
+        <!-- ========================= -->
+        <!-- RESIDENT EVIL 8 -->
+        <!-- ========================= -->
+
+        <game id="Resident-Evil-8" year="2021">
+            <title>Resident Evil Village</title>
+            <developer>Capcom</developer>
+            <main_incident>Village Megamycete Incident</main_incident>
+            <location>Eastern Europe Village</location>
+
+            <characters>
+                <character id_ref="p_ethan_winters" />
+                <character id_ref="p_chris_redfield" />
+                <character id_ref="p_rose_winters" />
+                <character id_ref="p_lady_dimitrescu" />
+            </characters>
+
+            <viruses status="Destroyed">
+                <biological_agent id="megamycete" danger_level="Extreme"
+                    infectivity="Very High">
+                    <name>Megamycete</name>
+                    <type>Mutamycete Root Organism</type>
+                    <description>
+                        Ancient fungal superorganism connected to all Mold variants.
+                    </description>
+                </biological_agent>
+            </viruses>
+
+            <weapons>
+                <weapon type="Handgun" ammo="9mm">
+                    <name>LEMI</name>
+                    <description>Basic handgun used by Ethan Winters.</description>
+                </weapon>
+
+                <weapon type="Shotgun" ammo="12 Gauge">
+                    <name>M1897</name>
+                    <description>Pump-action shotgun for close combat.</description>
+                </weapon>
+
+                <weapon type="Sniper Rifle" ammo="7.62mm">
+                    <name>F2 Rifle</name>
+                    <description>Long-range precision weapon.</description>
+                </weapon>
+            </weapons>
+        </game>
+
+        <!-- ========================= -->
+        <!-- RESIDENT EVIL 9 -->
+        <!-- ========================= -->
+
+        <game id="Resident-Evil-9" year="2026">
+            <title>Resident Evil Requiem</title>
+            <developer>Capcom</developer>
+            <main_incident>Unknown Global Bioterror Incident</main_incident>
+            <location>Undisclosed</location>
+
+            <characters>
+                <character id_ref="p_unknown_protagonist" />
+            </characters>
+
+            <viruses status="Unknown">
+                <biological_agent id="virus_re9" danger_level="Extreme" infectivity="Unknown">
+                    <name>Classified</name>
+                    <type>Unknown Bio-Organic Agent</type>
+                    <description>
+                        Information redacted pending Connections archival update.
+                    </description>
+                </biological_agent>
+            </viruses>
+
+            <weapons>
+                <weapon type="Handgun" ammo="9mm">
+                    <name>Standard Issue</name>
+                    <description>Data not yet confirmed.</description>
+                </weapon>
+            </weapons>
+        </game>
+    </timeline>
+
+    <organizations>
+        <organization id="org_umbrella" status="Destroyed">
+            <name>Umbrella Corporation</name>
+            <description>
+                Pharmaceutical corporation responsible for multiple biohazard incidents. (competitor in the bioweapons industry)
+            </description>
+        </organization>
+
+        <organization id="org_bsaa" status="Operational">
+            <name>BSAA</name>
+            <description>
+                International anti-bioterrorism organization. (dangerous rival)
+            </description>
+        </organization>
+    </organizations>
+
+    <biological_threats>
+        <threat id="series_T" status="Neutralized">
+            <name>Tyrant</name>
+            <risk_level>Extreme</risk_level>
+            <replication>in progress</replication>
+        </threat>
+
+        <threat id="NE-Alpha" status="Destroyed">
+            <name>Nemesis</name>
+            <risk_level>Extreme</risk_level>
+            <replication>in progress</replication>
+        </threat>
+
+        <threat id="las_plagas" status="Contained">
+            <name>Las Plagas</name>
+            <risk_level>Extreme</risk_level>
+            <replication>not possible</replication>
+        </threat>
+
+        <threat id="E-001" status="Neutralized">
+            <name>Eveline</name>
+            <risk_level>Extreme</risk_level>
+            <replication>never again</replication>
+        </threat>
+    </biological_threats>
+</the_connections>
