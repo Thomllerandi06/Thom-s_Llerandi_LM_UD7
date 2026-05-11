@@ -19,5 +19,3 @@ html_output = etree.tostring(
 
 with open(ruta_html, "w", encoding="utf-8") as f:
     f.write(html_output)
-
-print("HTML generado correctamente")
