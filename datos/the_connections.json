@@ -1,0 +1,551 @@
+{
+    "the_connections": {
+        "general_information": {
+            "file_name": "Project: Ultimate Gamma",
+            "classification": "Confidential grade 5",
+            "last_update": "2026-05-08"
+        },
+        "timeline": {
+            "game": [
+                {
+                    "@id": "Resident-Evil-1",
+                    "@year": "1998",
+                    "title": "Resident Evil",
+                    "developer": "Capcom",
+                    "main_incident": "Mansion Incident",
+                    "location": "Arklay Mountains, Raccoon City",
+                    "characters": {
+                        "character": [
+                            {
+                                "@id_ref": "p_chris_redfield"
+                            },
+                            {
+                                "@id_ref": "p_jill_valentine"
+                            },
+                            {
+                                "@id_ref": "p_rebecca_chambers"
+                            },
+                            {
+                                "@id_ref": "p_barry_burton"
+                            }
+                        ]
+                    },
+                    "viruses": {
+                        "@status": "Active",
+                        "biological_agent": {
+                            "@id": "virus_t_001",
+                            "@danger_level": "High",
+                            "@infectivity": "Very High",
+                            "name": "T-Virus",
+                            "type": "Mutagenic Virus",
+                            "description": "Viral weapon created by Umbrella Corporation.\n                        Responsible for the Mansion Incident."
+                        }
+                    },
+                    "weapons": {
+                        "weapon": [
+                            {
+                                "@type": "Handgun",
+                                "@ammo": "9mm",
+                                "name": "Beretta M92F",
+                                "description": "Standard S.T.A.R.S. sidearm."
+                            },
+                            {
+                                "@type": "Shotgun",
+                                "@ammo": "12 Gauge",
+                                "name": "Shotgun",
+                                "description": "Powerful anti-B.O.W weapon."
+                            },
+                            {
+                                "@type": "Grenade Launcher",
+                                "@ammo": "40mm",
+                                "name": "Grenade Launcher",
+                                "description": "Heavy explosive weapon used by Jill."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "@id": "Resident-Evil-2",
+                    "@year": "1998",
+                    "title": "Resident Evil 2",
+                    "developer": "Capcom",
+                    "main_incident": "Raccoon City Outbreak",
+                    "location": "Raccoon City",
+                    "characters": {
+                        "character": [
+                            {
+                                "@id_ref": "p_leon_kennedy"
+                            },
+                            {
+                                "@id_ref": "p_claire_redfield"
+                            },
+                            {
+                                "@id_ref": "p_ada_wong"
+                            },
+                            {
+                                "@id_ref": "p_sherry_birkin"
+                            }
+                        ]
+                    },
+                    "viruses": {
+                        "@status": "Critical",
+                        "biological_agent": {
+                            "@id": "virus_g_001",
+                            "@danger_level": "Extreme",
+                            "@infectivity": "High",
+                            "name": "G-Virus",
+                            "type": "Experimental Mutagenic Virus",
+                            "description": "Virus created by William Birkin capable of extreme mutation."
+                        }
+                    },
+                    "weapons": {
+                        "weapon": [
+                            {
+                                "@type": "Handgun",
+                                "@ammo": "9mm",
+                                "name": "Matilda",
+                                "description": "Leon Kennedy's standard handgun."
+                            },
+                            {
+                                "@type": "Shotgun",
+                                "@ammo": "12 Gauge",
+                                "name": "W-870",
+                                "description": "Reliable shotgun found in R.P.D."
+                            },
+                            {
+                                "@type": "Magnum",
+                                "@ammo": ".50 AE",
+                                "name": "Lightning Hawk",
+                                "description": "High-caliber anti-B.O.W weapon."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "@id": "Resident-Evil-3",
+                    "@year": "1998",
+                    "title": "Resident Evil 3",
+                    "developer": "Capcom",
+                    "main_incident": "Nemesis Pursuit Incident",
+                    "location": "Raccoon City",
+                    "characters": {
+                        "character": [
+                            {
+                                "@id_ref": "p_jill_valentine"
+                            },
+                            {
+                                "@id_ref": "p_carlos_oliveira"
+                            },
+                            {
+                                "@id_ref": "p_mikhail_victor"
+                            }
+                        ]
+                    },
+                    "viruses": {
+                        "@status": "Critical",
+                        "biological_agent": {
+                            "@id": "virus_nemesis",
+                            "@danger_level": "Extreme",
+                            "@infectivity": "High",
+                            "name": "NE-α Parasite",
+                            "type": "Parasite-Based Bio Weapon",
+                            "description": "Parasite implanted into Tyrants to improve intelligence."
+                        }
+                    },
+                    "weapons": {
+                        "weapon": [
+                            {
+                                "@type": "Handgun",
+                                "@ammo": "9mm",
+                                "name": "G19 Handgun",
+                                "description": "Jill Valentine's sidearm."
+                            },
+                            {
+                                "@type": "Shotgun",
+                                "@ammo": "12 Gauge",
+                                "name": "M3 Shotgun",
+                                "description": "Combat shotgun effective against infected."
+                            },
+                            {
+                                "@type": "Grenade Launcher",
+                                "@ammo": "40mm",
+                                "name": "Grenade Launcher",
+                                "description": "Heavy explosive weapon for crowd control."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "@id": "Resident-Evil-4",
+                    "@year": "2004",
+                    "title": "Resident Evil 4",
+                    "developer": "Capcom",
+                    "main_incident": "Las Plagas Incident",
+                    "location": "Rural Spain",
+                    "characters": {
+                        "character": [
+                            {
+                                "@id_ref": "p_leon_kennedy"
+                            },
+                            {
+                                "@id_ref": "p_ashley_graham"
+                            },
+                            {
+                                "@id_ref": "p_ada_wong"
+                            },
+                            {
+                                "@id_ref": "p_luis_serra"
+                            }
+                        ]
+                    },
+                    "viruses": {
+                        "@status": "Contained",
+                        "biological_agent": {
+                            "@id": "virus_las_plagas",
+                            "@danger_level": "Extreme",
+                            "@infectivity": "High",
+                            "name": "Las Plagas",
+                            "type": "Parasite Organism",
+                            "description": "Ancient parasite capable of controlling infected hosts."
+                        }
+                    },
+                    "weapons": {
+                        "weapon": [
+                            {
+                                "@type": "Handgun",
+                                "@ammo": "9mm",
+                                "name": "SG-09 R",
+                                "description": "Leon Kennedy's custom handgun."
+                            },
+                            {
+                                "@type": "Shotgun",
+                                "@ammo": "12 Gauge",
+                                "name": "W-870",
+                                "description": "Essential close-range weapon."
+                            },
+                            {
+                                "@type": "Rifle",
+                                "@ammo": "7.62mm",
+                                "name": "SR M1903",
+                                "description": "Precision rifle used against distant enemies."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "@id": "Resident-Evil-5",
+                    "@year": "2009",
+                    "title": "Resident Evil 5",
+                    "developer": "Capcom",
+                    "main_incident": "Kijuju Bioterror Incident",
+                    "location": "Kijuju Autonomous Zone, Africa",
+                    "characters": {
+                        "character": [
+                            {
+                                "@id_ref": "p_chris_redfield"
+                            },
+                            {
+                                "@id_ref": "p_sheva_alomar"
+                            },
+                            {
+                                "@id_ref": "p_albert_wesker"
+                            }
+                        ]
+                    },
+                    "viruses": {
+                        "@status": "Critical",
+                        "biological_agent": {
+                            "@id": "virus_uroboros",
+                            "@danger_level": "Extreme",
+                            "@infectivity": "Very High",
+                            "name": "Uroboros Virus",
+                            "type": "Advanced Viral Weapon",
+                            "description": "Experimental viruses created by Albert Wesker."
+                        }
+                    },
+                    "weapons": {
+                        "weapon": [
+                            {
+                                "@type": "Handgun",
+                                "@ammo": "9mm",
+                                "name": "M92F",
+                                "description": "Standard BSAA sidearm."
+                            },
+                            {
+                                "@type": "Shotgun",
+                                "@ammo": "12 Gauge",
+                                "name": "Ithaca M37",
+                                "description": "High stopping power combat shotgun."
+                            },
+                            {
+                                "@type": "Machine Gun",
+                                "@ammo": "5.56mm",
+                                "name": "VZ61",
+                                "description": "Rapid-fire automatic weapon."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "@id": "Resident-Evil-6",
+                    "@year": "2013",
+                    "title": "Resident Evil 6",
+                    "developer": "Capcom",
+                    "main_incident": "C-Virus Global Outbreak",
+                    "location": "Tall Oaks, Lanshiang, Eastern Europe",
+                    "characters": {
+                        "character": [
+                            {
+                                "@id_ref": "p_leon_kennedy"
+                            },
+                            {
+                                "@id_ref": "p_chris_redfield"
+                            },
+                            {
+                                "@id_ref": "p_jake_muller"
+                            },
+                            {
+                                "@id_ref": "p_ada_wong"
+                            }
+                        ]
+                    },
+                    "viruses": {
+                        "@status": "Global Threat",
+                        "biological_agent": {
+                            "@id": "virus_c_001",
+                            "@danger_level": "Extreme",
+                            "@infectivity": "Very High",
+                            "name": "C-Virus",
+                            "type": "Hybrid Viral Weapon",
+                            "description": "Advanced viruses combining multiple mutagenic strains."
+                        }
+                    },
+                    "weapons": {
+                        "weapon": [
+                            {
+                                "@type": "Handgun",
+                                "@ammo": "9mm",
+                                "name": "Wing Shooter",
+                                "description": "Leon Kennedy's dual-pistol system."
+                            },
+                            {
+                                "@type": "Assault Rifle",
+                                "@ammo": "5.56mm",
+                                "name": "Assault Rifle RN",
+                                "description": "Standard military-grade rifle."
+                            },
+                            {
+                                "@type": "Shotgun",
+                                "@ammo": "12 Gauge",
+                                "name": "Hydra",
+                                "description": "Triple-barrel shotgun with devastating power."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "@id": "Resident-Evil-7",
+                    "@year": "2017",
+                    "title": "Resident Evil 7: Biohazard",
+                    "developer": "Capcom",
+                    "main_incident": "Baker House Incident",
+                    "location": "Dulvey, Louisiana",
+                    "characters": {
+                        "character": [
+                            {
+                                "@id_ref": "p_ethan_winters"
+                            },
+                            {
+                                "@id_ref": "p_mia_winters"
+                            },
+                            {
+                                "@id_ref": "p_zoe_baker"
+                            },
+                            {
+                                "@id_ref": "p_chris_redfield"
+                            },
+                            {
+                                "@id_ref": "p_lucas_baker"
+                            }
+                        ]
+                    },
+                    "viruses": {
+                        "@status": "Contained",
+                        "biological_agent": {
+                            "@id": "mold",
+                            "@danger_level": "Extreme",
+                            "@infectivity": "Very High",
+                            "name": "E-Type Mold",
+                            "type": "Mutamycete Fungus",
+                            "description": "Experimental fungal bio-weapon connected to Eveline."
+                        }
+                    },
+                    "weapons": {
+                        "weapon": [
+                            {
+                                "@type": "Handgun",
+                                "@ammo": "9mm",
+                                "name": "M19 Handgun",
+                                "description": "Basic survival handgun."
+                            },
+                            {
+                                "@type": "Grenade Launcher",
+                                "@ammo": "40mm",
+                                "name": "Grenade Launcher",
+                                "description": "Heavy explosive weapon found in the house."
+                            },
+                            {
+                                "@type": "Flamethrower",
+                                "@ammo": "Fuel",
+                                "name": "Burner",
+                                "description": "Improvised flamethrower effective against insects."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "@id": "Resident-Evil-8",
+                    "@year": "2021",
+                    "title": "Resident Evil Village",
+                    "developer": "Capcom",
+                    "main_incident": "Village Megamycete Incident",
+                    "location": "Eastern Europe Village",
+                    "characters": {
+                        "character": [
+                            {
+                                "@id_ref": "p_ethan_winters"
+                            },
+                            {
+                                "@id_ref": "p_chris_redfield"
+                            },
+                            {
+                                "@id_ref": "p_rose_winters"
+                            },
+                            {
+                                "@id_ref": "p_lady_dimitrescu"
+                            }
+                        ]
+                    },
+                    "viruses": {
+                        "@status": "Destroyed",
+                        "biological_agent": {
+                            "@id": "megamycete",
+                            "@danger_level": "Extreme",
+                            "@infectivity": "Very High",
+                            "name": "Megamycete",
+                            "type": "Mutamycete Root Organism",
+                            "description": "Ancient fungal superorganism connected to all Mold variants."
+                        }
+                    },
+                    "weapons": {
+                        "weapon": [
+                            {
+                                "@type": "Handgun",
+                                "@ammo": "9mm",
+                                "name": "LEMI",
+                                "description": "Basic handgun used by Ethan Winters."
+                            },
+                            {
+                                "@type": "Shotgun",
+                                "@ammo": "12 Gauge",
+                                "name": "M1897",
+                                "description": "Pump-action shotgun for close combat."
+                            },
+                            {
+                                "@type": "Sniper Rifle",
+                                "@ammo": "7.62mm",
+                                "name": "F2 Rifle",
+                                "description": "Long-range precision weapon."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "@id": "Resident-Evil-9",
+                    "@year": "2026",
+                    "title": "Resident Evil Requiem",
+                    "developer": "Capcom",
+                    "main_incident": "Redacted",
+                    "location": "Redacted",
+                    "characters": {
+                        "character": [
+                            {
+                                "@id_ref": "p_leon_kennedy"
+                            },
+                            {
+                                "@id_ref": "p_grace_ashcroft"
+                            }
+                        ]
+                    },
+                    "viruses": {
+                        "@status": "Redacted",
+                        "biological_agent": {
+                            "@id": "virus_re9",
+                            "@danger_level": "Unknown",
+                            "@infectivity": "Redacted",
+                            "name": "Classified",
+                            "type": "Redacted",
+                            "description": "Redacted"
+                        }
+                    },
+                    "weapons": {
+                        "weapon": {
+                            "@type": "Handgun",
+                            "@ammo": "9mm",
+                            "name": "Standard Issue",
+                            "description": "Data not yet confirmed."
+                        }
+                    }
+                }
+            ]
+        },
+        "organizations": {
+            "organization": [
+                {
+                    "@id": "org_umbrella",
+                    "@status": "Destroyed",
+                    "name": "Umbrella Corporation",
+                    "description": "Pharmaceutical corporation responsible for multiple biohazard incidents. (competitor in the bioweapons industry)"
+                },
+                {
+                    "@id": "org_bsaa",
+                    "@status": "Operational",
+                    "name": "BSAA",
+                    "description": "International anti-bioterrorism organization. (dangerous rival)"
+                }
+            ]
+        },
+        "biological_threats": {
+            "threat": [
+                {
+                    "@id": "series_T",
+                    "@status": "Neutralized",
+                    "name": "Tyrant",
+                    "risk_level": "Extreme",
+                    "replication": "in progress"
+                },
+                {
+                    "@id": "NE-Alpha",
+                    "@status": "Destroyed",
+                    "name": "Nemesis",
+                    "risk_level": "Extreme",
+                    "replication": "in progress"
+                },
+                {
+                    "@id": "las_plagas",
+                    "@status": "Contained",
+                    "name": "Las Plagas",
+                    "risk_level": "Extreme",
+                    "replication": "not possible"
+                },
+                {
+                    "@id": "E-001",
+                    "@status": "Neutralized",
+                    "name": "Eveline",
+                    "risk_level": "Extreme",
+                    "replication": "never again"
+                }
+            ]
+        }
+    }
+}

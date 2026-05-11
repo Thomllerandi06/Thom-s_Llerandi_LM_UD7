@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
+<?xml-stylesheet type="text/xsl" href="plantilla.xslt"?>
 <the_connections>
 
     <general_information>
@@ -378,20 +378,19 @@
         <game id="Resident-Evil-9" year="2026">
             <title>Resident Evil Requiem</title>
             <developer>Capcom</developer>
-            <main_incident>Redacted</main_incident>
-            <location>Redacted</location>
+            <main_incident>Unknown Global Bioterror Incident</main_incident>
+            <location>Undisclosed</location>
 
             <characters>
-                <character id_ref="p_leon_kennedy" />
-                <character id_ref="p_grace_ashcroft" />
+                <character id_ref="p_unknown_protagonist" />
             </characters>
 
-            <viruses status="Redacted">
-                <biological_agent id="virus_re9" danger_level="Unknown" infectivity="Redacted">
+            <viruses status="Unknown">
+                <biological_agent id="virus_re9" danger_level="Extreme" infectivity="Unknown">
                     <name>Classified</name>
-                    <type>Redacted</type>
+                    <type>Unknown Bio-Organic Agent</type>
                     <description>
-                        Redacted
+                        Information redacted pending Connections archival update.
                     </description>
                 </biological_agent>
             </viruses>

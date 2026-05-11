@@ -1,0 +1,323 @@
+/* ===================================== */
+/* RESET */
+/* ===================================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ===================================== */
+/* BODY */
+/* ===================================== */
+
+body {
+    background: #070707;
+
+    color: #d4d4d4;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    padding: 40px;
+
+    line-height: 1.6;
+
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.94),
+            rgba(0, 0, 0, 0.97));
+
+    overflow-x: hidden;
+}
+
+/* ===================================== */
+/* MAIN TITLE */
+/* ===================================== */
+
+h1 {
+    text-align: center;
+
+    color: #c40000;
+
+    font-size: 3rem;
+
+    letter-spacing: 6px;
+
+    text-transform: uppercase;
+
+    margin-bottom: 60px;
+
+    text-shadow:
+        0 0 10px rgba(255, 0, 0, 0.4),
+        0 0 25px rgba(255, 0, 0, 0.15);
+
+    border-bottom: 2px solid #3b0000;
+
+    padding-bottom: 20px;
+}
+
+/* ===================================== */
+/* SECTION TITLES */
+/* ===================================== */
+
+.section-title,
+.info-section h2 {
+    color: #ff4b4b;
+
+    margin-top: 60px;
+    margin-bottom: 25px;
+
+    text-transform: uppercase;
+
+    letter-spacing: 3px;
+
+    border-left: 4px solid #8b0000;
+
+    padding-left: 15px;
+}
+
+/* ===================================== */
+/* GENERAL INFO */
+/* ===================================== */
+
+.info-section {
+    background: #111;
+
+    border: 1px solid #320000;
+
+    border-radius: 12px;
+
+    padding: 25px;
+
+    margin-bottom: 40px;
+
+    box-shadow:
+        0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.info-section p {
+    margin-bottom: 10px;
+}
+
+/* ===================================== */
+/* GRIDS */
+/* ===================================== */
+
+.games-grid,
+.organizations-grid,
+.threats-grid {
+    display: grid;
+
+    grid-template-columns:
+        repeat(auto-fit, minmax(350px, 1fr));
+
+    gap: 30px;
+
+    margin-bottom: 50px;
+}
+
+/* ===================================== */
+/* GAME CARD */
+/* ===================================== */
+
+.game {
+    background: #121212;
+
+    border: 1px solid #420000;
+
+    border-radius: 14px;
+
+    overflow: hidden;
+
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+
+    box-shadow:
+        0 0 15px rgba(0, 0, 0, 0.6);
+}
+
+.game:hover {
+    transform: translateY(-6px);
+
+    box-shadow:
+        0 0 25px rgba(255, 0, 0, 0.18),
+        0 0 50px rgba(255, 0, 0, 0.08);
+}
+
+/* ===================================== */
+/* GAME CONTENT */
+/* ===================================== */
+
+.game-content {
+    padding: 25px;
+}
+
+.game h2 {
+    color: #ff3d3d;
+
+    margin-bottom: 20px;
+
+    font-size: 1.8rem;
+
+    text-shadow:
+        0 0 8px rgba(255, 0, 0, 0.25);
+}
+
+.game p {
+    margin-bottom: 12px;
+}
+
+/* ===================================== */
+/* SUB SECTIONS */
+/* ===================================== */
+
+.sub-section {
+    margin-top: 25px;
+
+    padding-top: 20px;
+
+    border-top: 1px solid #2d2d2d;
+}
+
+.sub-section h3 {
+    color: #ff7a7a;
+
+    margin-bottom: 15px;
+
+    text-transform: uppercase;
+
+    letter-spacing: 2px;
+
+    font-size: 1rem;
+}
+
+/* ===================================== */
+/* LISTS */
+/* ===================================== */
+
+ul {
+    padding-left: 25px;
+}
+
+li {
+    margin-bottom: 10px;
+
+    color: #bcbcbc;
+}
+
+/* ===================================== */
+/* ORGANIZATION CARDS */
+/* ===================================== */
+
+.organization-card {
+    background: #101010;
+
+    border: 1px solid #2e0000;
+
+    border-radius: 12px;
+
+    padding: 25px;
+
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+.organization-card:hover {
+    transform: translateY(-4px);
+
+    box-shadow:
+        0 0 20px rgba(255, 0, 0, 0.12);
+}
+
+.organization-card h3 {
+    color: #ff4a4a;
+
+    margin-bottom: 15px;
+
+    font-size: 1.5rem;
+}
+
+/* ===================================== */
+/* THREAT CARDS */
+/* ===================================== */
+
+.threat-card {
+    background: #140909;
+
+    border: 1px solid #5a0000;
+
+    border-radius: 12px;
+
+    padding: 25px;
+
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+.threat-card:hover {
+    transform: translateY(-4px);
+
+    box-shadow:
+        0 0 25px rgba(255, 0, 0, 0.18);
+}
+
+.threat-card h3 {
+    color: #ff2e2e;
+
+    margin-bottom: 15px;
+
+    font-size: 1.4rem;
+}
+
+/* ===================================== */
+/* TEXT DETAILS */
+/* ===================================== */
+
+b {
+    color: #ffffff;
+}
+
+/* ===================================== */
+/* SCROLLBAR */
+/* ===================================== */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #111;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #5c0000;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #930000;
+}
+
+/* ===================================== */
+/* RESPONSIVE */
+/* ===================================== */
+
+@media(max-width:768px) {
+
+    body {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .games-grid,
+    .organizations-grid,
+    .threats-grid {
+        grid-template-columns: 1fr;
+    }
+
+}
