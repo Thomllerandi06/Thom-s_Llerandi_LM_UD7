@@ -1,7 +1,7 @@
 from lxml import etree
 from pathlib import Path
 
-ruta_xml = Path(__file__).parent / 'the_conections.xml'
+ruta_xml = Path(__file__).parent.parent / 'datos' / 'datos.xml'
 ruta_xslt = Path(__file__).parent / 'plantilla.xslt'
 ruta_html = Path(__file__).parent / 'salida.html'
 

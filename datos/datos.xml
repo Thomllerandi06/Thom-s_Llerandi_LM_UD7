@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="plantilla.xslt"?>
+
 <the_connections>
 
     <general_information>
@@ -10,9 +10,9 @@
 
     <timeline>
 
-        <!-- ========================= -->
-        <!-- RESIDENT EVIL 1 REMAKE -->
-        <!-- ========================= -->
+
+
+
 
         <game id="Resident-Evil-1" year="1998">
             <title>Resident Evil</title>
@@ -56,9 +56,9 @@
             </weapons>
         </game>
 
-        <!-- ========================= -->
-        <!-- RESIDENT EVIL 2 REMAKE -->
-        <!-- ========================= -->
+
+
+
 
         <game id="Resident-Evil-2" year="1998">
             <title>Resident Evil 2</title>
@@ -101,9 +101,9 @@
             </weapons>
         </game>
 
-        <!-- ========================= -->
-        <!-- RESIDENT EVIL 3 REMAKE -->
-        <!-- ========================= -->
+
+
+
 
         <game id="Resident-Evil-3" year="1998">
             <title>Resident Evil 3</title>
@@ -145,9 +145,9 @@
             </weapons>
         </game>
 
-        <!-- ========================= -->
-        <!-- RESIDENT EVIL 4 REMAKE -->
-        <!-- ========================= -->
+
+
+
 
         <game id="Resident-Evil-4" year="2004">
             <title>Resident Evil 4</title>
@@ -190,9 +190,9 @@
             </weapons>
         </game>
 
-        <!-- ========================= -->
-        <!-- RESIDENT EVIL 5 -->
-        <!-- ========================= -->
+
+
+
 
         <game id="Resident-Evil-5" year="2009">
             <title>Resident Evil 5</title>
@@ -234,9 +234,9 @@
             </weapons>
         </game>
 
-        <!-- ========================= -->
-        <!-- RESIDENT EVIL 6 -->
-        <!-- ========================= -->
+
+
+
 
         <game id="Resident-Evil-6" year="2013">
             <title>Resident Evil 6</title>
@@ -279,9 +279,9 @@
             </weapons>
         </game>
 
-        <!-- ========================= -->
-        <!-- RESIDENT EVIL 7 -->
-        <!-- ========================= -->
+
+
+
 
         <game id="Resident-Evil-7" year="2017">
             <title>Resident Evil 7: Biohazard</title>
@@ -325,9 +325,9 @@
             </weapons>
         </game>
 
-        <!-- ========================= -->
-        <!-- RESIDENT EVIL 8 -->
-        <!-- ========================= -->
+
+
+
 
         <game id="Resident-Evil-8" year="2021">
             <title>Resident Evil Village</title>
@@ -371,26 +371,27 @@
             </weapons>
         </game>
 
-        <!-- ========================= -->
-        <!-- RESIDENT EVIL 9 -->
-        <!-- ========================= -->
+
+
+
 
         <game id="Resident-Evil-9" year="2026">
             <title>Resident Evil Requiem</title>
             <developer>Capcom</developer>
-            <main_incident>Unknown Global Bioterror Incident</main_incident>
-            <location>Undisclosed</location>
+            <main_incident>Redacted</main_incident>
+            <location>Redacted</location>
 
             <characters>
-                <character id_ref="p_unknown_protagonist" />
+                <character id_ref="p_leon_kennedy" />
+                <character id_ref="p_grace_ashcroft" />
             </characters>
 
-            <viruses status="Unknown">
-                <biological_agent id="virus_re9" danger_level="Extreme" infectivity="Unknown">
+            <viruses status="Redacted">
+                <biological_agent id="virus_re9" danger_level="Unknown" infectivity="Redacted">
                     <name>Classified</name>
-                    <type>Unknown Bio-Organic Agent</type>
+                    <type>Redacted</type>
                     <description>
-                        Information redacted pending Connections archival update.
+                        Redacted
                     </description>
                 </biological_agent>
             </viruses>

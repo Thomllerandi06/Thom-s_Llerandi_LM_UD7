@@ -6,9 +6,9 @@ fetch("datos.json")
 
         const container = document.getElementById("games-container");
 
-        /* ===================================== */
-        /* MAIN TITLE */
-        /* ===================================== */
+
+
+
 
         const mainTitle = document.createElement("h1");
 
@@ -16,9 +16,9 @@ fetch("datos.json")
 
         container.appendChild(mainTitle);
 
-        /* ===================================== */
-        /* GENERAL INFORMATION */
-        /* ===================================== */
+
+
+
 
         const infoSection = document.createElement("section");
 
@@ -47,9 +47,9 @@ fetch("datos.json")
 
         container.appendChild(infoSection);
 
-        /* ===================================== */
-        /* GAMES SECTION */
-        /* ===================================== */
+
+
+
 
         const gamesTitle = document.createElement("h2");
 
@@ -69,7 +69,7 @@ fetch("datos.json")
 
             card.classList.add("game");
 
-            /* CHARACTERS */
+
 
             let charactersHTML = "";
 
@@ -81,13 +81,10 @@ fetch("datos.json")
 
                 let characterName = character["@id_ref"]
 
-                    // quitar "p_"
                     .replace("p_", "")
 
-                    // cambiar _ por espacios
                     .replaceAll("_", " ")
 
-                    // capitalizar
                     .split(" ")
                     .map(word =>
                         word.charAt(0).toUpperCase() +
@@ -101,7 +98,7 @@ fetch("datos.json")
 
             });
 
-            /* WEAPONS */
+
 
             let weaponsHTML = "";
 
@@ -127,11 +124,11 @@ fetch("datos.json")
 
             });
 
-            /* VIRUS */
+
 
             const virus = game.viruses.biological_agent;
 
-            /* CARD */
+
 
             card.innerHTML = `
 
@@ -225,9 +222,9 @@ fetch("datos.json")
 
         container.appendChild(gamesGrid);
 
-        /* ===================================== */
-        /* ORGANIZATIONS */
-        /* ===================================== */
+
+
+
 
         const organizationsTitle = document.createElement("h2");
 
@@ -268,9 +265,9 @@ fetch("datos.json")
 
         container.appendChild(organizationsGrid);
 
-        /* ===================================== */
-        /* BIOLOGICAL THREATS */
-        /* ===================================== */
+
+
+
 
         const threatsTitle = document.createElement("h2");
 
